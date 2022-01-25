@@ -1,0 +1,44 @@
+//variables
+$negro: #000000;
+$blanco: #fff;
+$blanco1: #fff7f7;
+$naranja: #CE7D35;
+$negro1: #333333;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	background-color: $negro;
+}
+.tituInicalMinimal{
+	color: $blanco;
+}
+.menu >li > a{
+	color: $blanco1
+}
+.menu li a:hover{
+	color: $naranja
+}
+.navegacion{
+color: $naranja
+}
+.submenu li a{
+	color: $blanco;
+	background: $negro1;
+}

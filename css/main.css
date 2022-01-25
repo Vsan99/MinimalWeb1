@@ -1,0 +1,241 @@
+/*body*/
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	font-style: none;
+	color: #000;
+}
+body {
+font-family: "Montserrat", sans-serif;
+background-color: #0D0D0D;
+}
+header{
+	width: 100%;
+	position: sticky;
+	top: 0;
+}
+.titInicialMinimal {
+font-style: italic; 
+text-align: center;
+color: #fff;
+margin: 10px;
+}
+.containerAnimacion{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.agrandar{
+	animation-name: agrandar;
+	-o-animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-direction: alternate ;
+}
+@keyframes agrandar{
+	from{
+	transform: scale(1.1)
+	}
+	to{
+	transform: scale(2.0)
+	}
+}
+
+
+
+
+/*BARRA DE NAVEGACION*/
+.navegacion{
+	width: 1000px;
+	margin: 20px auto;
+	background: #0D0D0D;
+	
+}
+/*BARRA DE NAVEGACION*/
+.navegacion{
+	width: 1000px;
+	margin: 20px auto;
+	background: #0D0D0D;
+	
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff7f7;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+/* EFECTO BOTONES*/
+.navMenu{
+	display: flex;
+}
+/* SUBMENU*/
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*banner y footer no hechos en sass*/
+/*BANNER*/
+
+.banner{
+	width: 100%;
+	height: 90vh;
+	background-image: url(../imagenes/Minimal\ Inicio.png);
+	background-size: cover;
+	background-position : center;
+}
+.bannerTitle{
+	text-align: left;
+	color: #fff;
+	font-size: 100px;
+	padding: 220px 120px;
+} 
+/*SECTION*/
+.section1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin:50px;
+	color: #fff;
+}
+.section1Texto{
+	padding-left: 70px;
+	padding-right: 50px;
+}
+.section1Title{
+	padding: 20px 0;
+	font-size: 50px;
+}
+.section1Descrip{
+	padding: 20px 0;
+	font-size: 18px;
+}
+.section1Img{
+	width: 2vh;
+	height: 1vh;
+}
+
+/*FOOTER*/
+#footer {
+	margin-top: 80px;
+	padding: 20px 0 0 0;
+	text-align: center;
+	color: #fff;
+}
+#footer {
+	background: #262626;
+}
+#footer a{
+	color: #fff;
+}
+#footer a:hover{
+	color: #585858;
+}
+.footerImg{
+	width: 20%;
+}
+.list-inline{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+.list-inline-item{
+	padding: 10px;
+}
+.footerb {
+	background-color: #595959;
+	height: 40px;
+}
+.footerb p {
+	font-size: 12px;
+	padding: 12px;
+}
+
+/*FIN FOOTER*/
+
+/*NOSOTROS*/
+.sectionNosotrosImg {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+/*FIN NOSOTROS*/
+
+/*CONTACTO*/
+form {
+	width: 300px;
+	margin: auto;
+	background: #ddd;
+	padding: 20px;
+	margin-top: 20px;
+	color: black;
+	border: 1px solid black;
+}
+h1 {
+	text-align: start;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+label, input,select {
+	width: 100%;
+	display: block;
+	font-size: 1.2em;
+}
+input, select {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	width: 30%;
+	margin: auto;
+	background: #333;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+.error {
+	color: red;}
+
+
+/*FIN CONTACTO*/
