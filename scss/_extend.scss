@@ -1,0 +1,12 @@
+// EXTEND
+
+%aclaracionRegistro1 {
+    color: $naranja;
+    font-size: 18px;
+    line-height: 1.5;
+    }
+
+p h2 .aclaracionRegistro{ 
+    @extend%aclaracionRegistro1
+}
+

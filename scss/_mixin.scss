@@ -1,0 +1,9 @@
+@mixin  patituloRegistro1{
+    color: $naranja;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.tituloRegistro{
+    @include tituloRegistro1();
+}
