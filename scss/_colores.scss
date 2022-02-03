@@ -4,6 +4,10 @@ $blanco: #fff;
 $blanco1: #fff7f7;
 $naranja: #CE7D35;
 $negro1: #333333;
+$negro2: #262626;
+$gris: #585858;
+$gris1: #595959;
+$rojo:  #f11d0e;
 
 
 
@@ -23,7 +27,7 @@ $negro1: #333333;
 
 
 
-body{
+.body{
 	background-color: $negro;
 }
 .tituInicalMinimal{
@@ -41,4 +45,25 @@ color: $naranja
 .submenu li a{
 	color: $blanco;
 	background: $negro1;
+}
+.bannerTitle{
+	color: $blanco;
+}
+.section1{
+	color:$blanco;
+}
+#footer{
+	color: $blanco;
+}
+#footer {
+	color: $negro2;
+}
+#footer a{
+	color: $blanco;
+}
+#footer a:hover{
+	color:$gris
+}
+.footerb {
+	background-color: $gris1;
 }
