@@ -229,8 +229,8 @@ input, select {
 input[type="submit"] {
 	width: 30%;
 	margin: auto;
-	background: #333;
-	color: white;
+	background: #585858;
+	color: #fff;
 	border: none;
 	cursor: pointer;
 }
@@ -304,73 +304,7 @@ background-color: rgba(255 ,168 ,58, .2);
 }
 
 
-.headerUstedes { grid-area: header;
-background-color: red;
-height: 24vh;
-}
 
-.seccion1{ grid-area: section1;
-background-color: rebeccapurple;
-height: 26,1vh;
-}
-
-.seccion2 { grid-area: section2;
-background-color: royalblue;
-height: 26,1vh;
-}
-
-.seccion3 { grid-area: section3;
-background-color: wheat;
-height: 25,1vh;
-}
-
-.seccion4 { grid-area: section4;
-background-color: orange;
-height: 25,1vh;
-}
-
-.footerUstedes { grid-area: footer; 
-background-color: greenyellow;
-height: 25vh;
-} 
-.Grid-Ustedes{
-	display: grid
-	
-
-}
-
-.h1Ustedes{
-	font-size: none;
-	color: #fff;
-}
-.h2Ustedes{
-	font-size: none;
-	color: #fff;
-}
-.sectionUstedesImg1{
-	width: 10%;
-
-}
-.sectionUstedesImg2{
-	width: 10%;
-
-}
-.sectionUstedesImg3{
-	width: 10%;
-
-}
-.sectionUstedesImg4{
-	width: 10%;
-
-}
-.sectionUstedesImg5{
-	width: 10%;
-
-}
-.sectionUstedesImg6{
-	width: 10%;
-
-}
 
 
 @media (max-width: 420px) {
