@@ -10,6 +10,7 @@ font-family: 'Source Sans 3', sans-serif;
     -moz-osx-font-smoothing: grayscale;
 	margin: 0px;
 	padding: 0px;
+	
 }
 a{
 	text-decoration: none;
@@ -51,11 +52,27 @@ margin: 10px;
 	transform: scale(2.0)
 	}
 }
+.infoCompradores{
+	color: #fff;
+	text-align: center;
+	margin-top: 5%;
+}
+.segundoBanner{
+	display: flex;
+	float: left;
+	width: 50%;
+	height: 50%;
+	
+}
+.videoIndex{
+	display: flex;
+	margin-top: 2%;
+}
 
 
 /*BARRA DE NAVEGACION*/
 .navegacion{
-	width: 1000px;
+	width: 500px;
 	margin: 20px auto;
 	background: #0D0D0D;
 	
@@ -294,14 +311,18 @@ background-color: rgba(255 ,168 ,58, .2);
 
 
 
+
+
 /*FIN TIENDA*/
 
 /* USTEDES*/
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+.textoUstedes{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 5%;
 }
+
 
 
 
@@ -312,7 +333,6 @@ background-color: rgba(255 ,168 ,58, .2);
 		grid-template-areas:"header header header header""header header header header""section1 section1 section1 section1""section2 section2 section2 section2""section3 section3 section3 section3""section4 section4 section4 section4""footer footer footer footer""footer footer footer footer";
 	}
 }
-
 
 
 /*  FIN USTEDES*/   
